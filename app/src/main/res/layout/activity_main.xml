@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relative1"
+    tools:context=".MainActivity">
+
+   <EditText
+       android:id="@+id/et_1"
+       android:layout_width="match_parent"
+       android:layout_height="90dp"/>
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:text="7"
+        android:layout_below="@+id/et_1"/>
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:text="8"
+        android:layout_toRightOf="@+id/btn7"
+        android:layout_below="@+id/et_1"/>
+
+    <Button
+    android:id="@+id/btn9"
+    android:layout_width="100dp"
+    android:layout_height="70dp"
+    android:text="9"
+    android:layout_toRightOf="@+id/btn8"
+    android:layout_below="@+id/et_1"/>
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/et_1"
+        android:layout_toRightOf="@+id/btn9"
+        android:text="+" />
+    //Second Line
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:text="4"
+        android:layout_below="@+id/btn7"/>
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:text="5"
+        android:layout_toRightOf="@+id/btn4"
+        android:layout_below="@+id/btn8"/>
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:text="6"
+        android:layout_toRightOf="@+id/btn5"
+        android:layout_below="@+id/btn9"/>
+
+    <Button
+        android:id="@+id/btn_sub"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/btn_add"
+        android:layout_toRightOf="@+id/btn6"
+        android:textSize="20sp"
+        android:text="-" />
+ //Third Line
+ <Button
+     android:id="@+id/btn1"
+     android:layout_width="100dp"
+     android:layout_height="70dp"
+     android:text="1"
+     android:layout_below="@+id/btn4"/>
+ <Button
+     android:id="@+id/btn2"
+     android:layout_width="100dp"
+     android:layout_height="70dp"
+     android:text="2"
+     android:layout_toRightOf="@+id/btn1"
+     android:layout_below="@+id/btn5"/>
+
+ <Button
+     android:id="@+id/btn3"
+     android:layout_width="100dp"
+     android:layout_height="70dp"
+     android:text="3"
+     android:layout_toRightOf="@+id/btn2"
+     android:layout_below="@+id/btn6"/>
+
+ <Button
+     android:id="@+id/btn_mult"
+     android:layout_width="140dp"
+     android:layout_height="70dp"
+     android:layout_below="@+id/btn_sub"
+     android:layout_toRightOf="@+id/btn3"
+     android:textSize="14sp"
+     android:text="x" />
+ //Fourth Line
+ <Button
+     android:id="@+id/btn0"
+     android:layout_width="100dp"
+     android:layout_height="70dp"
+     android:text="0"
+     android:layout_below="@+id/btn1"/>
+ <Button
+     android:id="@+id/btn10"
+     android:layout_width="100dp"
+     android:layout_height="70dp"
+     android:text="."
+     android:textSize="20sp"
+     android:layout_toRightOf="@+id/btn0"
+     android:layout_below="@+id/btn2"/>
+
+ <Button
+     android:id="@+id/btn_c"
+     android:layout_width="100dp"
+     android:layout_height="70dp"
+     android:text="Ac"
+     android:layout_toRightOf="@+id/btn10"
+     android:layout_below="@+id/btn3"/>
+
+ <Button
+     android:id="@+id/btn_div"
+     android:layout_width="140dp"
+     android:layout_height="70dp"
+     android:layout_below="@+id/btn_mult"
+     android:layout_toRightOf="@+id/btn_c"
+     android:textSize="14sp"
+     android:text="/" />
+ //Fifth line
+ <Button
+     android:id="@+id/btn_eql"
+     android:layout_width="match_parent"
+     android:layout_height="70dp"
+     android:layout_below="@id/btn0"
+     android:text="="
+  android:textSize="23sp"/>
+
+
+
+</RelativeLayout>
